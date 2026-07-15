@@ -10,7 +10,7 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 212.44,
+      "price": 212.5,
       "pe": 32.6,
       "fwd_pe": 16.6,
       "peg": 0.7,
@@ -21,7 +21,7 @@
     },
     {
       "symbol": "V",
-      "price": 355.53,
+      "price": 355.14,
       "pe": 31.0,
       "fwd_pe": 23.9,
       "peg": 1.5,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "MA",
-      "price": 535.12,
+      "price": 535.21,
       "pe": 31.0,
       "fwd_pe": 23.5,
       "peg": 1.6,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "MSFT",
-      "price": 395.48,
+      "price": 395.63,
       "pe": 23.6,
       "fwd_pe": 20.4,
       "peg": 1.2,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 370.88,
+      "price": 370.92,
       "pe": 28.3,
       "fwd_pe": 25.4,
       "peg": 1.4,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "VRTX",
-      "price": 477.01,
+      "price": 477.08,
       "pe": 28.3,
       "fwd_pe": 22.5,
       "peg": 1.7,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "META",
-      "price": 681.12,
+      "price": 681.31,
       "pe": 24.8,
       "fwd_pe": 18.8,
       "peg": 1.0,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ADBE",
-      "price": 224.52,
+      "price": 224.56,
       "pe": 12.8,
       "fwd_pe": 8.2,
       "peg": 0.6,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "INTU",
-      "price": 279.57,
+      "price": 279.7,
       "pe": 17.1,
       "fwd_pe": 10.2,
       "peg": 0.7,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-15 21:00 KST"
+  "updated": "2026-07-16 00:00 KST"
 }

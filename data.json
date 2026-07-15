@@ -1,11 +1,112 @@
 {
   "portfolio_value": 0,
   "cash": 0,
-  "daily_pnl": 0,
+  "daily_pnl": 0.0,
   "total_trades": 0,
   "win_rate": 0,
   "consecutive_losses": 0,
   "open_positions": 0,
   "positions": {},
-  "updated": "IBKR paper — awaiting connection"
+  "candidates": [
+    {
+      "symbol": "NVDA",
+      "price": 211.8,
+      "pe": 32.5,
+      "fwd_pe": 16.5,
+      "peg": 0.7,
+      "margin": 63.0,
+      "roe": 114.0,
+      "rev_growth": 85.2,
+      "beta": 2.2
+    },
+    {
+      "symbol": "V",
+      "price": 356.02,
+      "pe": 31.1,
+      "fwd_pe": 23.9,
+      "peg": 1.5,
+      "margin": 51.7,
+      "roe": 60.0,
+      "rev_growth": 17.1,
+      "beta": 0.8
+    },
+    {
+      "symbol": "MA",
+      "price": 538.02,
+      "pe": 31.2,
+      "fwd_pe": 23.6,
+      "peg": 1.6,
+      "margin": 45.9,
+      "roe": 232.0,
+      "rev_growth": 15.8,
+      "beta": 0.7
+    },
+    {
+      "symbol": "MSFT",
+      "price": 384.93,
+      "pe": 23.3,
+      "fwd_pe": 19.9,
+      "peg": 1.2,
+      "margin": 39.3,
+      "roe": 34.0,
+      "rev_growth": 18.3,
+      "beta": 1.1
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 359.51,
+      "pe": 27.4,
+      "fwd_pe": 24.6,
+      "peg": 1.4,
+      "margin": 37.9,
+      "roe": 39.0,
+      "rev_growth": 21.8,
+      "beta": 1.2
+    },
+    {
+      "symbol": "VRTX",
+      "price": 476.31,
+      "pe": 28.3,
+      "fwd_pe": 22.5,
+      "peg": 1.7,
+      "margin": 35.5,
+      "roe": 24.0,
+      "rev_growth": 7.8,
+      "beta": 0.3
+    },
+    {
+      "symbol": "META",
+      "price": 661.04,
+      "pe": 24.0,
+      "fwd_pe": 18.2,
+      "peg": 1.0,
+      "margin": 32.8,
+      "roe": 33.0,
+      "rev_growth": 33.1,
+      "beta": 1.2
+    },
+    {
+      "symbol": "ADBE",
+      "price": 220.78,
+      "pe": 12.6,
+      "fwd_pe": 8.0,
+      "peg": 0.6,
+      "margin": 28.7,
+      "roe": 63.0,
+      "rev_growth": 12.7,
+      "beta": 1.4
+    },
+    {
+      "symbol": "INTU",
+      "price": 282.43,
+      "pe": 17.2,
+      "fwd_pe": 10.3,
+      "peg": 0.7,
+      "margin": 21.9,
+      "roe": 22.0,
+      "rev_growth": 10.4,
+      "beta": 1.0
+    }
+  ],
+  "updated": "2026-07-15 13:46 KST"
 }

@@ -38,6 +38,12 @@ td .name{display:block;font-size:11px;color:#999}
   <tbody id="positions"></tbody>
 </table>
 
+<h2>🔍 Screening Candidates</h2>
+<table>
+  <thead><tr><th>Symbol</th><th>Price</th><th>P/E</th><th>Fwd P/E</th><th>PEG</th><th>Margin</th><th>ROE</th><th>Rev Gr</th><th>Beta</th></tr></thead>
+  <tbody id="candidates"></tbody>
+</table>
+
 <div class="footer" id="footer"></div>
 
 <script>
@@ -80,6 +86,13 @@ fetch("data.json")
       : '<tr><td colspan="5" style="color:#999">No positions</td></tr>';
 
     document.getElementById("footer").textContent = `ESOS Quant Agent · PAPER · Snapshot: ${d.updated}`;
+
+    const candidates = d.candidates || [];
+    document.getElementById("candidates").innerHTML = candidates.length
+      ? candidates.map(c =>
+          `<tr><td><b>${c.symbol}</b></td><td>$${fmt(c.price,2)}</td><td>${c.pe}x</td><td>${c.fwd_pe}x</td><td>${c.peg}x</td><td><b>${c.margin}%</b></td><td>${c.roe}%</td><td>${c.rev_growth}%</td><td>${c.beta}</td></tr>`
+        ).join("")
+      : '<tr><td colspan="9" style="color:#999">No candidates yet</td></tr>';
   })
   .catch(() => document.body.innerHTML += '<p style="color:#dc2626">Failed to load data. Check back later.</p>');
 </script>

@@ -10,6 +10,37 @@ sys.path.insert(0, str(Path.home() / "quant-bot"))
 os.environ.setdefault("BROKER", "ibkr")
 os.environ.setdefault("BOT_MODE", "paper")
 
+def screen_candidates():
+    """Stock screen: FTNT profile — margin > 20%, P/E < 40."""
+    import yfinance as yf
+    tickers = ['ADBE','INTU','MA','V','META','GOOGL','MSFT','NVDA',
+               'CRM','NOW','ANET','FTNT','PANW','ISRG','VRTX',
+               'AMAT','KLAC','CAT','UNH','COST','AZO','ORLY',
+               'HD','TJX','NKE','LOW']
+    results = []
+    for t in tickers:
+        try:
+            info = yf.Ticker(t).info
+            pe = info.get('trailingPE')
+            margin = info.get('profitMargins')
+            price = info.get('currentPrice') or info.get('regularMarketPrice')
+            if price and margin and pe and pe > 0 and pe < 40 and margin > 0.20:
+                results.append({
+                    "symbol": t,
+                    "price": round(price, 2),
+                    "pe": round(pe, 1),
+                    "fwd_pe": round(info.get('forwardPE', 0) or 0, 1),
+                    "peg": round(info.get('pegRatio', 0) or 0, 1),
+                    "margin": round(margin * 100, 1),
+                    "roe": round((info.get('returnOnEquity', 0) or 0) * 100, 0),
+                    "rev_growth": round((info.get('revenueGrowth', 0) or 0) * 100, 1),
+                    "beta": round(info.get('beta', 0) or 0, 1),
+                })
+        except Exception:
+            pass
+    results.sort(key=lambda x: x["margin"], reverse=True)
+    return results
+
 def main():
     if os.getenv("BROKER", "toss") == "toss":
         from exchange_toss import Exchange
@@ -23,11 +54,13 @@ def main():
         cash = e.get_account_balance("USD")
         pv = e.get_portfolio_value()
         pos = e.get_positions()
+        stats = r.get_stats()
     except Exception as exc:
         cash, pv, pos = 0, 0, {}
-        print(f"Warning: {exc}", file=sys.stderr)
-
-    stats = r.get_stats()
+        print(f"Warning: broker offline — {exc}", file=sys.stderr)
+        from risk import RiskManager
+        r = RiskManager()
+        stats = r.get_stats()
 
     public_pos = {}
     for sym, p in pos.items():
@@ -49,6 +82,7 @@ def main():
         "consecutive_losses": stats.get("consecutive_losses", 0),
         "open_positions": stats.get("open_positions", 0),
         "positions": public_pos,
+        "candidates": screen_candidates(),
         "updated": datetime.now().strftime("%Y-%m-%d %H:%M KST"),
     }
 

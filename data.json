@@ -10,8 +10,8 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 207.62,
-      "pe": 31.8,
+      "price": 206.89,
+      "pe": 31.7,
       "fwd_pe": 16.2,
       "peg": 0.7,
       "margin": 63.0,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "V",
-      "price": 359.83,
-      "pe": 31.4,
-      "fwd_pe": 24.2,
+      "price": 362.06,
+      "pe": 31.6,
+      "fwd_pe": 24.4,
       "peg": 1.6,
       "margin": 51.7,
       "roe": 60.0,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "MA",
-      "price": 542.34,
-      "pe": 31.4,
-      "fwd_pe": 23.8,
+      "price": 548.2,
+      "pe": 31.7,
+      "fwd_pe": 24.1,
       "peg": 1.6,
       "margin": 45.9,
       "roe": 232.0,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "MSFT",
-      "price": 393.36,
-      "pe": 23.5,
-      "fwd_pe": 20.3,
+      "price": 403.03,
+      "pe": 24.0,
+      "fwd_pe": 20.8,
       "peg": 1.2,
       "margin": 39.3,
       "roe": 34.0,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 370.37,
-      "pe": 28.3,
-      "fwd_pe": 25.3,
+      "price": 371.53,
+      "pe": 28.4,
+      "fwd_pe": 25.4,
       "peg": 1.4,
       "margin": 37.9,
       "roe": 39.0,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "VRTX",
-      "price": 482.48,
-      "pe": 28.7,
+      "price": 481.6,
+      "pe": 28.6,
       "fwd_pe": 22.6,
       "peg": 1.7,
       "margin": 35.5,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 670.49,
-      "pe": 24.4,
-      "fwd_pe": 18.5,
+      "price": 669.76,
+      "pe": 24.3,
+      "fwd_pe": 18.4,
       "peg": 1.0,
       "margin": 32.8,
       "roe": 33.0,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ADBE",
-      "price": 224.36,
-      "pe": 12.8,
-      "fwd_pe": 8.1,
+      "price": 232.52,
+      "pe": 13.3,
+      "fwd_pe": 8.4,
       "peg": 0.6,
       "margin": 28.7,
       "roe": 63.0,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "INTU",
-      "price": 281.79,
-      "pe": 17.2,
-      "fwd_pe": 10.3,
+      "price": 295.71,
+      "pe": 18.0,
+      "fwd_pe": 10.8,
       "peg": 0.7,
       "margin": 21.9,
       "roe": 22.0,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-16 15:00 KST"
+  "updated": "2026-07-16 18:01 KST"
 }

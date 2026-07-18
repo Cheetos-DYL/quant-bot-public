@@ -11,7 +11,7 @@
     {
       "symbol": "NVDA",
       "price": 202.81,
-      "pe": 31.1,
+      "pe": 31.7,
       "fwd_pe": 15.8,
       "peg": 0.7,
       "margin": 63.0,
@@ -67,7 +67,7 @@
       "symbol": "VRTX",
       "price": 485.65,
       "pe": 28.8,
-      "fwd_pe": 22.8,
+      "fwd_pe": 22.7,
       "peg": 1.7,
       "margin": 35.5,
       "roe": 24.0,
@@ -88,7 +88,7 @@
     {
       "symbol": "ADBE",
       "price": 237.25,
-      "pe": 13.6,
+      "pe": 13.5,
       "fwd_pe": 8.6,
       "peg": 0.6,
       "margin": 28.7,
@@ -119,5 +119,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-18 00:00 KST"
+  "updated": "2026-07-18 03:01 KST"
 }

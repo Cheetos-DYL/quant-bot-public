@@ -35,7 +35,7 @@
       "price": 543.6,
       "pe": 32.0,
       "fwd_pe": 23.9,
-      "peg": 1.6,
+      "peg": 1.7,
       "margin": 45.9,
       "roe": 232.0,
       "rev_growth": 15.8,
@@ -44,7 +44,7 @@
     {
       "symbol": "MSFT",
       "price": 393.82,
-      "pe": 23.4,
+      "pe": 23.9,
       "fwd_pe": 20.3,
       "peg": 1.2,
       "margin": 39.3,
@@ -79,7 +79,7 @@
       "price": 646.01,
       "pe": 24.2,
       "fwd_pe": 17.8,
-      "peg": 1.0,
+      "peg": 0.9,
       "margin": 32.8,
       "roe": 33.0,
       "rev_growth": 33.1,
@@ -90,7 +90,7 @@
       "price": 237.25,
       "pe": 13.5,
       "fwd_pe": 8.6,
-      "peg": 0.6,
+      "peg": 0.7,
       "margin": 28.7,
       "roe": 63.0,
       "rev_growth": 12.7,
@@ -101,12 +101,12 @@
       "price": 291.09,
       "pe": 18.0,
       "fwd_pe": 10.6,
-      "peg": 0.7,
+      "peg": 0.8,
       "margin": 21.9,
       "roe": 22.0,
       "rev_growth": 10.4,
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-18 09:00 KST"
+  "updated": "2026-07-18 12:00 KST"
 }

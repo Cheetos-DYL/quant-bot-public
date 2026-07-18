@@ -22,7 +22,7 @@
     {
       "symbol": "V",
       "price": 358.56,
-      "pe": 31.3,
+      "pe": 31.8,
       "fwd_pe": 24.1,
       "peg": 1.6,
       "margin": 51.7,
@@ -33,7 +33,7 @@
     {
       "symbol": "MA",
       "price": 543.6,
-      "pe": 31.5,
+      "pe": 32.0,
       "fwd_pe": 23.9,
       "peg": 1.6,
       "margin": 45.9,
@@ -55,7 +55,7 @@
     {
       "symbol": "GOOGL",
       "price": 346.77,
-      "pe": 26.4,
+      "pe": 27.0,
       "fwd_pe": 23.7,
       "peg": 1.4,
       "margin": 37.9,
@@ -77,7 +77,7 @@
     {
       "symbol": "META",
       "price": 646.01,
-      "pe": 23.5,
+      "pe": 24.2,
       "fwd_pe": 17.8,
       "peg": 1.0,
       "margin": 32.8,
@@ -97,20 +97,9 @@
       "beta": 1.4
     },
     {
-      "symbol": "ISRG",
-      "price": 345.42,
-      "pe": 39.6,
-      "fwd_pe": 28.8,
-      "peg": 2.0,
-      "margin": 28.4,
-      "roe": 17.0,
-      "rev_growth": 18.5,
-      "beta": 0
-    },
-    {
       "symbol": "INTU",
       "price": 291.09,
-      "pe": 17.8,
+      "pe": 18.0,
       "fwd_pe": 10.6,
       "peg": 0.7,
       "margin": 21.9,
@@ -119,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-18 03:01 KST"
+  "updated": "2026-07-18 06:00 KST"
 }

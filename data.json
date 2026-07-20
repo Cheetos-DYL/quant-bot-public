@@ -10,9 +10,9 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 205.81,
-      "pe": 31.5,
-      "fwd_pe": 16.0,
+      "price": 204.05,
+      "pe": 31.2,
+      "fwd_pe": 15.9,
       "peg": 0.6,
       "margin": 63.0,
       "roe": 114.0,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "V",
-      "price": 357.63,
-      "pe": 31.2,
-      "fwd_pe": 24.1,
+      "price": 361.04,
+      "pe": 31.5,
+      "fwd_pe": 24.3,
       "peg": 1.6,
       "margin": 51.7,
       "roe": 60.0,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "MA",
-      "price": 540.73,
-      "pe": 31.3,
-      "fwd_pe": 23.7,
+      "price": 545.59,
+      "pe": 31.6,
+      "fwd_pe": 23.9,
       "peg": 1.7,
       "margin": 45.9,
       "roe": 232.0,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "MSFT",
-      "price": 390.7,
-      "pe": 23.3,
-      "fwd_pe": 20.2,
+      "price": 401.45,
+      "pe": 23.9,
+      "fwd_pe": 20.7,
       "peg": 1.2,
       "margin": 39.3,
       "roe": 34.0,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 358.31,
-      "pe": 27.3,
-      "fwd_pe": 24.5,
+      "price": 354.4,
+      "pe": 27.0,
+      "fwd_pe": 24.2,
       "peg": 1.4,
       "margin": 37.9,
       "roe": 39.0,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "VRTX",
-      "price": 488.0,
-      "pe": 29.0,
+      "price": 485.84,
+      "pe": 28.8,
       "fwd_pe": 22.8,
       "peg": 1.7,
       "margin": 35.5,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 636.87,
-      "pe": 23.1,
-      "fwd_pe": 17.5,
+      "price": 651.84,
+      "pe": 23.7,
+      "fwd_pe": 17.9,
       "peg": 0.9,
       "margin": 32.8,
       "roe": 33.0,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ADBE",
-      "price": 228.41,
-      "pe": 13.1,
-      "fwd_pe": 8.3,
+      "price": 233.85,
+      "pe": 13.4,
+      "fwd_pe": 8.5,
       "peg": 0.7,
       "margin": 28.7,
       "roe": 63.0,
@@ -97,21 +97,10 @@
       "beta": 1.4
     },
     {
-      "symbol": "ISRG",
-      "price": 345.58,
-      "pe": 39.7,
-      "fwd_pe": 28.8,
-      "peg": 1.8,
-      "margin": 28.4,
-      "roe": 17.0,
-      "rev_growth": 18.5,
-      "beta": 1.5
-    },
-    {
       "symbol": "INTU",
-      "price": 279.88,
-      "pe": 17.1,
-      "fwd_pe": 10.2,
+      "price": 292.15,
+      "pe": 17.8,
+      "fwd_pe": 10.7,
       "peg": 0.8,
       "margin": 21.9,
       "roe": 22.0,
@@ -119,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-20 15:00 KST"
+  "updated": "2026-07-20 18:00 KST"
 }

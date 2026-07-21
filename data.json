@@ -2,15 +2,15 @@
   "portfolio_value": 0,
   "cash": 0,
   "daily_pnl": 0.0,
-  "total_trades": 0,
-  "win_rate": 0,
+  "total_trades": 1,
+  "win_rate": 0.0,
   "consecutive_losses": 0,
-  "open_positions": 0,
+  "open_positions": 1,
   "positions": {},
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 205.9,
+      "price": 205.4,
       "pe": 31.5,
       "fwd_pe": 16.0,
       "peg": 0.6,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "V",
-      "price": 357.25,
-      "pe": 31.1,
-      "fwd_pe": 24.0,
+      "price": 358.57,
+      "pe": 31.3,
+      "fwd_pe": 24.1,
       "peg": 1.6,
       "margin": 51.7,
       "roe": 60.0,
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "MA",
-      "price": 542.55,
-      "pe": 31.4,
+      "price": 542.18,
+      "pe": 31.3,
       "fwd_pe": 23.8,
       "peg": 1.7,
       "margin": 45.9,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "MSFT",
-      "price": 399.92,
+      "price": 398.63,
       "pe": 23.8,
       "fwd_pe": 20.6,
       "peg": 1.2,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 349.7,
+      "price": 349.39,
       "pe": 26.7,
       "fwd_pe": 23.9,
       "peg": 1.4,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "VRTX",
-      "price": 481.5,
-      "pe": 28.5,
-      "fwd_pe": 22.6,
+      "price": 479.74,
+      "pe": 28.4,
+      "fwd_pe": 22.5,
       "peg": 1.7,
       "margin": 35.5,
       "roe": 24.0,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 648.12,
+      "price": 648.62,
       "pe": 23.6,
-      "fwd_pe": 17.8,
+      "fwd_pe": 17.9,
       "peg": 0.9,
       "margin": 32.8,
       "roe": 33.0,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ADBE",
-      "price": 228.62,
-      "pe": 13.1,
-      "fwd_pe": 8.3,
+      "price": 226.08,
+      "pe": 12.9,
+      "fwd_pe": 8.2,
       "peg": 0.7,
       "margin": 28.7,
       "roe": 63.0,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "INTU",
-      "price": 289.33,
+      "price": 288.64,
       "pe": 17.6,
       "fwd_pe": 10.6,
       "peg": 0.8,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-21 15:00 KST"
+  "updated": "2026-07-21 18:01 KST"
 }

@@ -44,7 +44,7 @@
     {
       "symbol": "MSFT",
       "price": 402.29,
-      "pe": 24.0,
+      "pe": 23.5,
       "fwd_pe": 20.8,
       "peg": 1.2,
       "margin": 39.3,
@@ -97,6 +97,17 @@
       "beta": 1.4
     },
     {
+      "symbol": "ISRG",
+      "price": 353.17,
+      "pe": 39.7,
+      "fwd_pe": 29.4,
+      "peg": 1.8,
+      "margin": 28.4,
+      "roe": 17.0,
+      "rev_growth": 18.5,
+      "beta": 1.5
+    },
+    {
       "symbol": "INTU",
       "price": 293.82,
       "pe": 17.9,
@@ -108,5 +119,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-21 03:00 KST"
+  "updated": "2026-07-21 06:00 KST"
 }

@@ -11,7 +11,7 @@
     {
       "symbol": "NVDA",
       "price": 212.06,
-      "pe": 31.7,
+      "pe": 32.5,
       "fwd_pe": 16.5,
       "peg": 0.6,
       "margin": 63.0,
@@ -20,9 +20,20 @@
       "beta": 2.2
     },
     {
+      "symbol": "GOOGL",
+      "price": 342.09,
+      "pe": 17.2,
+      "fwd_pe": 23.2,
+      "peg": 1.4,
+      "margin": 54.8,
+      "roe": 49.0,
+      "rev_growth": 24.2,
+      "beta": 0
+    },
+    {
       "symbol": "V",
       "price": 353.42,
-      "pe": 31.1,
+      "pe": 30.8,
       "fwd_pe": 23.8,
       "peg": 1.6,
       "margin": 51.7,
@@ -51,17 +62,6 @@
       "roe": 34.0,
       "rev_growth": 18.3,
       "beta": 1.1
-    },
-    {
-      "symbol": "GOOGL",
-      "price": 342.09,
-      "pe": 26.5,
-      "fwd_pe": 23.3,
-      "peg": 1.4,
-      "margin": 37.9,
-      "roe": 39.0,
-      "rev_growth": 21.8,
-      "beta": 1.2
     },
     {
       "symbol": "VRTX",
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-23 09:00 KST"
+  "updated": "2026-07-23 12:00 KST"
 }

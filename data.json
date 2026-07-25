@@ -11,7 +11,7 @@
     {
       "symbol": "NVDA",
       "price": 206.84,
-      "pe": 31.7,
+      "pe": 32.0,
       "fwd_pe": 16.1,
       "peg": 0.6,
       "margin": 63.0,
@@ -22,18 +22,18 @@
     {
       "symbol": "GOOGL",
       "price": 319.74,
-      "pe": 16.1,
+      "pe": 15.9,
       "fwd_pe": 21.6,
       "peg": 1.2,
       "margin": 54.8,
       "roe": 49.0,
       "rev_growth": 24.2,
-      "beta": 0
+      "beta": 1.2
     },
     {
       "symbol": "V",
       "price": 355.74,
-      "pe": 31.0,
+      "pe": 30.7,
       "fwd_pe": 23.9,
       "peg": 1.6,
       "margin": 51.7,
@@ -77,7 +77,7 @@
     {
       "symbol": "META",
       "price": 595.19,
-      "pe": 21.6,
+      "pe": 22.0,
       "fwd_pe": 16.1,
       "peg": 0.9,
       "margin": 32.8,
@@ -88,7 +88,7 @@
     {
       "symbol": "ADBE",
       "price": 225.11,
-      "pe": 12.9,
+      "pe": 12.1,
       "fwd_pe": 8.2,
       "peg": 0.6,
       "margin": 28.7,
@@ -119,5 +119,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-25 00:00 KST"
+  "updated": "2026-07-25 03:00 KST"
 }

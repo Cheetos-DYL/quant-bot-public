@@ -33,7 +33,7 @@
     {
       "symbol": "V",
       "price": 362.53,
-      "pe": 31.1,
+      "pe": 31.6,
       "fwd_pe": 24.4,
       "peg": 1.6,
       "margin": 51.7,
@@ -66,7 +66,7 @@
     {
       "symbol": "VRTX",
       "price": 479.0,
-      "pe": 28.3,
+      "pe": 28.4,
       "fwd_pe": 22.5,
       "peg": 1.6,
       "margin": 35.5,
@@ -97,17 +97,6 @@
       "beta": 1.4
     },
     {
-      "symbol": "ISRG",
-      "price": 356.83,
-      "pe": 38.7,
-      "fwd_pe": 29.7,
-      "peg": 1.7,
-      "margin": 28.4,
-      "roe": 17.0,
-      "rev_growth": 18.5,
-      "beta": 1.5
-    },
-    {
       "symbol": "INTU",
       "price": 303.91,
       "pe": 18.1,
@@ -119,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-28 09:00 KST"
+  "updated": "2026-07-28 12:00 KST"
 }

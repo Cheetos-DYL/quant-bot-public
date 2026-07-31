@@ -10,8 +10,8 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 197.69,
-      "pe": 29.5,
+      "price": 198.24,
+      "pe": 30.4,
       "fwd_pe": 15.4,
       "peg": 0.5,
       "margin": 63.0,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 344.88,
-      "pe": 17.3,
-      "fwd_pe": 23.4,
+      "price": 353.16,
+      "pe": 17.7,
+      "fwd_pe": 24.0,
       "peg": 0.9,
       "margin": 54.8,
       "roe": 49.0,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "V",
-      "price": 364.39,
-      "pe": 31.0,
-      "fwd_pe": 24.4,
+      "price": 365.84,
+      "pe": 31.1,
+      "fwd_pe": 24.5,
       "peg": 1.6,
       "margin": 50.8,
       "roe": 61.0,
@@ -43,8 +43,8 @@
     },
     {
       "symbol": "MA",
-      "price": 572.37,
-      "pe": 32.3,
+      "price": 572.79,
+      "pe": 31.5,
       "fwd_pe": 25.0,
       "peg": 1.7,
       "margin": 45.9,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "MSFT",
-      "price": 461.54,
+      "price": 462.0,
       "pe": 25.7,
       "fwd_pe": 20.0,
       "peg": 1.2,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "VRTX",
-      "price": 472.19,
-      "pe": 28.0,
-      "fwd_pe": 22.1,
+      "price": 475.95,
+      "pe": 28.2,
+      "fwd_pe": 22.3,
       "peg": 1.6,
       "margin": 35.5,
       "roe": 24.0,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 545.57,
-      "pe": 20.5,
-      "fwd_pe": 15.3,
+      "price": 548.68,
+      "pe": 20.7,
+      "fwd_pe": 15.4,
       "peg": 0.9,
       "margin": 29.8,
       "roe": 30.0,
@@ -87,8 +87,8 @@
     },
     {
       "symbol": "ADBE",
-      "price": 246.16,
-      "pe": 14.1,
+      "price": 248.09,
+      "pe": 14.2,
       "fwd_pe": 9.0,
       "peg": 0.7,
       "margin": 28.7,
@@ -98,8 +98,8 @@
     },
     {
       "symbol": "INTU",
-      "price": 315.42,
-      "pe": 19.3,
+      "price": 315.0,
+      "pe": 19.2,
       "fwd_pe": 11.5,
       "peg": 0.9,
       "margin": 21.9,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-07-31 15:00 KST"
+  "updated": "2026-07-31 18:00 KST"
 }

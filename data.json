@@ -11,7 +11,7 @@
     {
       "symbol": "NVDA",
       "price": 200.75,
-      "pe": 29.8,
+      "pe": 30.8,
       "fwd_pe": 15.6,
       "peg": 0.5,
       "margin": 63.0,
@@ -47,9 +47,9 @@
       "pe": 31.5,
       "fwd_pe": 25.0,
       "peg": 1.7,
-      "margin": 45.9,
-      "roe": 232.0,
-      "rev_growth": 15.8,
+      "margin": 46.3,
+      "roe": 241.0,
+      "rev_growth": 14.1,
       "beta": 0.7
     },
     {
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-01 09:00 KST"
+  "updated": "2026-08-01 12:00 KST"
 }

@@ -11,7 +11,7 @@
     {
       "symbol": "NVDA",
       "price": 200.75,
-      "pe": 30.7,
+      "pe": 29.8,
       "fwd_pe": 15.6,
       "peg": 0.5,
       "margin": 63.0,
@@ -33,7 +33,7 @@
     {
       "symbol": "V",
       "price": 366.13,
-      "pe": 31.1,
+      "pe": 31.2,
       "fwd_pe": 24.5,
       "peg": 1.6,
       "margin": 50.8,
@@ -55,7 +55,7 @@
     {
       "symbol": "MSFT",
       "price": 464.72,
-      "pe": 25.9,
+      "pe": 25.1,
       "fwd_pe": 20.0,
       "peg": 1.2,
       "margin": 40.3,
@@ -66,7 +66,7 @@
     {
       "symbol": "VRTX",
       "price": 477.1,
-      "pe": 28.3,
+      "pe": 28.6,
       "fwd_pe": 22.4,
       "peg": 1.6,
       "margin": 35.5,
@@ -88,7 +88,7 @@
     {
       "symbol": "ADBE",
       "price": 250.41,
-      "pe": 14.3,
+      "pe": 14.2,
       "fwd_pe": 9.1,
       "peg": 0.7,
       "margin": 28.7,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-01 03:00 KST"
+  "updated": "2026-08-01 06:00 KST"
 }

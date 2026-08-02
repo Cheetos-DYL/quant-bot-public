@@ -24,7 +24,7 @@
       "price": 356.13,
       "pe": 17.9,
       "fwd_pe": 24.2,
-      "peg": 0.9,
+      "peg": 1.0,
       "margin": 54.8,
       "roe": 49.0,
       "rev_growth": 24.2,
@@ -46,7 +46,7 @@
       "price": 573.1,
       "pe": 31.5,
       "fwd_pe": 25.0,
-      "peg": 1.7,
+      "peg": 1.8,
       "margin": 46.3,
       "roe": 241.0,
       "rev_growth": 14.1,
@@ -79,7 +79,7 @@
       "price": 556.71,
       "pe": 21.0,
       "fwd_pe": 15.7,
-      "peg": 0.9,
+      "peg": 0.8,
       "margin": 29.8,
       "roe": 30.0,
       "rev_growth": 28.0,
@@ -101,12 +101,12 @@
       "price": 316.07,
       "pe": 19.3,
       "fwd_pe": 11.6,
-      "peg": 0.9,
+      "peg": 0.8,
       "margin": 21.9,
       "roe": 22.0,
       "rev_growth": 10.4,
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-02 00:00 KST"
+  "updated": "2026-08-02 03:01 KST"
 }

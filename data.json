@@ -10,9 +10,9 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 206.93,
+      "price": 206.64,
       "pe": 31.7,
-      "fwd_pe": 16.1,
+      "fwd_pe": 16.0,
       "peg": 0.6,
       "margin": 63.0,
       "roe": 114.0,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 375.94,
-      "pe": 18.9,
-      "fwd_pe": 25.5,
+      "price": 373.51,
+      "pe": 18.7,
+      "fwd_pe": 25.3,
       "peg": 1.0,
       "margin": 54.8,
       "roe": 49.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "V",
-      "price": 364.83,
+      "price": 365.58,
       "pe": 31.1,
       "fwd_pe": 24.4,
       "peg": 1.7,
@@ -43,8 +43,8 @@
     },
     {
       "symbol": "MA",
-      "price": 572.97,
-      "pe": 31.5,
+      "price": 571.11,
+      "pe": 31.4,
       "fwd_pe": 24.9,
       "peg": 1.8,
       "margin": 46.3,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "MSFT",
-      "price": 488.79,
+      "price": 487.65,
       "pe": 27.2,
       "fwd_pe": 20.8,
       "peg": 1.5,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "VRTX",
-      "price": 471.39,
+      "price": 470.72,
       "pe": 28.0,
       "fwd_pe": 22.1,
       "peg": 1.6,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 593.26,
-      "pe": 22.3,
-      "fwd_pe": 17.0,
+      "price": 590.24,
+      "pe": 22.2,
+      "fwd_pe": 16.9,
       "peg": 0.8,
       "margin": 29.8,
       "roe": 30.0,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ADBE",
-      "price": 254.32,
-      "pe": 14.5,
-      "fwd_pe": 9.3,
+      "price": 251.34,
+      "pe": 14.4,
+      "fwd_pe": 9.1,
       "peg": 0.7,
       "margin": 28.7,
       "roe": 63.0,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "INTU",
-      "price": 323.42,
-      "pe": 19.7,
-      "fwd_pe": 11.8,
+      "price": 318.39,
+      "pe": 19.4,
+      "fwd_pe": 11.6,
       "peg": 0.8,
       "margin": 21.9,
       "roe": 22.0,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-03 18:00 KST"
+  "updated": "2026-08-03 21:01 KST"
 }

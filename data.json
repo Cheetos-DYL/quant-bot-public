@@ -32,7 +32,7 @@
     },
     {
       "symbol": "V",
-      "price": 369.56,
+      "price": 369.59,
       "pe": 31.5,
       "fwd_pe": 24.7,
       "peg": 1.7,
@@ -43,8 +43,8 @@
     },
     {
       "symbol": "MA",
-      "price": 571.09,
-      "pe": 31.6,
+      "price": 571.1,
+      "pe": 31.4,
       "fwd_pe": 24.9,
       "peg": 1.8,
       "margin": 46.3,
@@ -55,7 +55,7 @@
     {
       "symbol": "MSFT",
       "price": 492.81,
-      "pe": 26.2,
+      "pe": 27.5,
       "fwd_pe": 21.0,
       "peg": 1.5,
       "margin": 40.3,
@@ -66,8 +66,8 @@
     {
       "symbol": "VRTX",
       "price": 478.7,
-      "pe": 28.8,
-      "fwd_pe": 22.5,
+      "pe": 28.4,
+      "fwd_pe": 22.4,
       "peg": 1.6,
       "margin": 35.0,
       "roe": 24.0,
@@ -97,20 +97,9 @@
       "beta": 1.4
     },
     {
-      "symbol": "ISRG",
-      "price": 368.26,
-      "pe": 39.7,
-      "fwd_pe": 30.5,
-      "peg": 1.7,
-      "margin": 28.4,
-      "roe": 17.0,
-      "rev_growth": 18.5,
-      "beta": 1.5
-    },
-    {
       "symbol": "INTU",
       "price": 323.6,
-      "pe": 19.6,
+      "pe": 19.7,
       "fwd_pe": 11.8,
       "peg": 0.8,
       "margin": 21.9,
@@ -119,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-04 21:01 KST"
+  "updated": "2026-08-05 00:00 KST"
 }

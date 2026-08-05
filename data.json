@@ -45,7 +45,7 @@
       "symbol": "MA",
       "price": 571.1,
       "pe": 31.4,
-      "fwd_pe": 24.9,
+      "fwd_pe": 24.8,
       "peg": 1.8,
       "margin": 46.3,
       "roe": 241.0,
@@ -69,10 +69,10 @@
       "pe": 28.4,
       "fwd_pe": 22.4,
       "peg": 1.6,
-      "margin": 35.0,
+      "margin": 35.5,
       "roe": 24.0,
-      "rev_growth": 12.5,
-      "beta": 0
+      "rev_growth": 7.8,
+      "beta": 0.3
     },
     {
       "symbol": "META",
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-05 00:00 KST"
+  "updated": "2026-08-05 03:00 KST"
 }

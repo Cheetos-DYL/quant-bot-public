@@ -22,7 +22,7 @@
     {
       "symbol": "GOOGL",
       "price": 377.65,
-      "pe": 18.7,
+      "pe": 18.1,
       "fwd_pe": 25.6,
       "peg": 1.0,
       "margin": 54.8,
@@ -55,7 +55,7 @@
     {
       "symbol": "MSFT",
       "price": 492.81,
-      "pe": 26.2,
+      "pe": 27.2,
       "fwd_pe": 21.0,
       "peg": 1.6,
       "margin": 40.3,
@@ -69,16 +69,16 @@
       "pe": 27.9,
       "fwd_pe": 22.4,
       "peg": 1.6,
-      "margin": 35.5,
+      "margin": 35.0,
       "roe": 24.0,
-      "rev_growth": 7.8,
-      "beta": 0.3
+      "rev_growth": 12.5,
+      "beta": 0
     },
     {
       "symbol": "META",
       "price": 587.94,
-      "pe": 22.2,
-      "fwd_pe": 16.8,
+      "pe": 20.9,
+      "fwd_pe": 16.7,
       "peg": 0.8,
       "margin": 29.8,
       "roe": 30.0,
@@ -99,7 +99,7 @@
     {
       "symbol": "INTU",
       "price": 323.6,
-      "pe": 19.6,
+      "pe": 19.4,
       "fwd_pe": 11.8,
       "peg": 0.8,
       "margin": 21.9,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-05 09:00 KST"
+  "updated": "2026-08-05 12:00 KST"
 }

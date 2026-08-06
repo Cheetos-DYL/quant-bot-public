@@ -10,7 +10,7 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 219.22,
+      "price": 219.55,
       "pe": 33.6,
       "fwd_pe": 17.0,
       "peg": 0.6,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 362.43,
-      "pe": 18.2,
-      "fwd_pe": 24.6,
+      "price": 358.56,
+      "pe": 18.0,
+      "fwd_pe": 24.3,
       "peg": 1.0,
       "margin": 54.8,
       "roe": 49.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "V",
-      "price": 368.54,
+      "price": 367.71,
       "pe": 31.3,
       "fwd_pe": 24.6,
       "peg": 1.7,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "MA",
-      "price": 570.48,
-      "pe": 31.4,
-      "fwd_pe": 24.8,
+      "price": 569.13,
+      "pe": 31.3,
+      "fwd_pe": 24.7,
       "peg": 1.8,
       "margin": 46.3,
       "roe": 241.0,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "MSFT",
-      "price": 487.46,
-      "pe": 27.2,
-      "fwd_pe": 20.8,
+      "price": 495.12,
+      "pe": 27.6,
+      "fwd_pe": 21.1,
       "peg": 1.6,
       "margin": 40.3,
       "roe": 34.0,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "VRTX",
-      "price": 484.83,
-      "pe": 28.3,
-      "fwd_pe": 22.4,
+      "price": 483.13,
+      "pe": 28.7,
+      "fwd_pe": 22.3,
       "peg": 1.6,
       "margin": 35.0,
       "roe": 24.0,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "META",
-      "price": 588.77,
+      "price": 590.47,
       "pe": 22.2,
       "fwd_pe": 16.8,
       "peg": 0.8,
@@ -87,8 +87,8 @@
     },
     {
       "symbol": "ADBE",
-      "price": 259.32,
-      "pe": 14.8,
+      "price": 257.4,
+      "pe": 14.7,
       "fwd_pe": 9.4,
       "peg": 0.7,
       "margin": 28.7,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "INTU",
-      "price": 327.94,
-      "pe": 20.0,
-      "fwd_pe": 12.0,
+      "price": 319.1,
+      "pe": 19.5,
+      "fwd_pe": 11.7,
       "peg": 0.8,
       "margin": 21.9,
       "roe": 22.0,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-06 15:00 KST"
+  "updated": "2026-08-06 18:00 KST"
 }

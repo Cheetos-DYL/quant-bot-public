@@ -22,7 +22,7 @@
     {
       "symbol": "GOOGL",
       "price": 357.75,
-      "pe": 17.9,
+      "pe": 18.0,
       "fwd_pe": 24.3,
       "peg": 1.0,
       "margin": 54.8,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "V",
-      "price": 370.42,
-      "pe": 31.6,
-      "fwd_pe": 24.7,
+      "price": 370.47,
+      "pe": 31.5,
+      "fwd_pe": 24.8,
       "peg": 1.7,
       "margin": 50.8,
       "roe": 61.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "MA",
-      "price": 575.97,
+      "price": 575.95,
       "pe": 31.6,
       "fwd_pe": 25.0,
       "peg": 1.8,
@@ -72,14 +72,14 @@
       "margin": 35.0,
       "roe": 24.0,
       "rev_growth": 12.5,
-      "beta": 0.3
+      "beta": 0
     },
     {
       "symbol": "META",
       "price": 589.9,
       "pe": 22.2,
       "fwd_pe": 16.8,
-      "peg": 0.8,
+      "peg": 0.9,
       "margin": 29.8,
       "roe": 30.0,
       "rev_growth": 28.0,
@@ -90,7 +90,7 @@
       "price": 260.24,
       "pe": 14.9,
       "fwd_pe": 9.5,
-      "peg": 0.7,
+      "peg": 0.6,
       "margin": 28.7,
       "roe": 63.0,
       "rev_growth": 12.7,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-06 21:01 KST"
+  "updated": "2026-08-07 00:00 KST"
 }

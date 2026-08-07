@@ -10,9 +10,9 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 222.5,
-      "pe": 34.1,
-      "fwd_pe": 17.3,
+      "price": 221.75,
+      "pe": 34.0,
+      "fwd_pe": 17.2,
       "peg": 0.6,
       "margin": 63.0,
       "roe": 114.0,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 356.24,
-      "pe": 17.9,
-      "fwd_pe": 24.2,
+      "price": 355.24,
+      "pe": 17.8,
+      "fwd_pe": 24.1,
       "peg": 1.0,
       "margin": 54.8,
       "roe": 49.0,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "V",
-      "price": 368.01,
-      "pe": 31.4,
-      "fwd_pe": 24.6,
+      "price": 363.55,
+      "pe": 31.0,
+      "fwd_pe": 24.3,
       "peg": 1.7,
       "margin": 50.8,
       "roe": 61.0,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "MA",
-      "price": 569.65,
-      "pe": 31.3,
-      "fwd_pe": 24.8,
+      "price": 563.68,
+      "pe": 31.0,
+      "fwd_pe": 24.5,
       "peg": 1.8,
       "margin": 46.3,
       "roe": 241.0,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "MSFT",
-      "price": 502.52,
-      "pe": 28.0,
-      "fwd_pe": 21.4,
+      "price": 500.81,
+      "pe": 27.9,
+      "fwd_pe": 21.3,
       "peg": 1.6,
       "margin": 40.3,
       "roe": 34.0,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "VRTX",
-      "price": 488.79,
-      "pe": 28.5,
-      "fwd_pe": 22.6,
+      "price": 490.91,
+      "pe": 28.6,
+      "fwd_pe": 22.7,
       "peg": 1.7,
       "margin": 35.0,
       "roe": 24.0,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 589.42,
-      "pe": 22.2,
-      "fwd_pe": 16.8,
+      "price": 592.42,
+      "pe": 22.3,
+      "fwd_pe": 16.9,
       "peg": 0.9,
       "margin": 29.8,
       "roe": 30.0,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ADBE",
-      "price": 265.09,
+      "price": 265.11,
       "pe": 15.2,
       "fwd_pe": 9.6,
       "peg": 0.6,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "INTU",
-      "price": 327.79,
+      "price": 328.4,
       "pe": 20.0,
       "fwd_pe": 12.0,
       "peg": 0.8,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-07 15:00 KST"
+  "updated": "2026-08-07 18:00 KST"
 }

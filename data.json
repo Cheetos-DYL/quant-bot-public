@@ -22,7 +22,7 @@
     {
       "symbol": "GOOGL",
       "price": 357.75,
-      "pe": 18.0,
+      "pe": 18.2,
       "fwd_pe": 24.3,
       "peg": 1.0,
       "margin": 54.8,
@@ -33,7 +33,7 @@
     {
       "symbol": "V",
       "price": 370.47,
-      "pe": 31.5,
+      "pe": 31.3,
       "fwd_pe": 24.8,
       "peg": 1.7,
       "margin": 50.8,
@@ -72,7 +72,7 @@
       "margin": 35.0,
       "roe": 24.0,
       "rev_growth": 12.5,
-      "beta": 0
+      "beta": 0.3
     },
     {
       "symbol": "META",
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-07 00:00 KST"
+  "updated": "2026-08-07 03:00 KST"
 }

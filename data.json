@@ -10,9 +10,9 @@
   "candidates": [
     {
       "symbol": "NVDA",
-      "price": 221.75,
-      "pe": 34.0,
-      "fwd_pe": 17.2,
+      "price": 223.92,
+      "pe": 34.3,
+      "fwd_pe": 17.4,
       "peg": 0.6,
       "margin": 63.0,
       "roe": 114.0,
@@ -21,9 +21,9 @@
     },
     {
       "symbol": "GOOGL",
-      "price": 355.24,
+      "price": 354.35,
       "pe": 17.8,
-      "fwd_pe": 24.1,
+      "fwd_pe": 24.0,
       "peg": 1.0,
       "margin": 54.8,
       "roe": 49.0,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "V",
-      "price": 363.55,
-      "pe": 31.0,
-      "fwd_pe": 24.3,
+      "price": 362.56,
+      "pe": 30.9,
+      "fwd_pe": 24.2,
       "peg": 1.7,
       "margin": 50.8,
       "roe": 61.0,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "MA",
-      "price": 563.68,
-      "pe": 31.0,
-      "fwd_pe": 24.5,
+      "price": 562.38,
+      "pe": 30.9,
+      "fwd_pe": 24.4,
       "peg": 1.8,
       "margin": 46.3,
       "roe": 241.0,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "MSFT",
-      "price": 500.81,
+      "price": 499.84,
       "pe": 27.9,
       "fwd_pe": 21.3,
       "peg": 1.6,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "VRTX",
-      "price": 490.91,
-      "pe": 28.6,
-      "fwd_pe": 22.7,
+      "price": 496.01,
+      "pe": 28.9,
+      "fwd_pe": 22.9,
       "peg": 1.7,
       "margin": 35.0,
       "roe": 24.0,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "META",
-      "price": 592.42,
+      "price": 591.92,
       "pe": 22.3,
-      "fwd_pe": 16.9,
+      "fwd_pe": 16.8,
       "peg": 0.9,
       "margin": 29.8,
       "roe": 30.0,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ADBE",
-      "price": 265.11,
+      "price": 265.06,
       "pe": 15.2,
       "fwd_pe": 9.6,
       "peg": 0.6,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "INTU",
-      "price": 328.4,
-      "pe": 20.0,
-      "fwd_pe": 12.0,
+      "price": 325.18,
+      "pe": 19.8,
+      "fwd_pe": 11.9,
       "peg": 0.8,
       "margin": 21.9,
       "roe": 22.0,
@@ -108,5 +108,5 @@
       "beta": 1.0
     }
   ],
-  "updated": "2026-08-07 18:00 KST"
+  "updated": "2026-08-07 21:00 KST"
 }

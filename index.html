@@ -3,98 +3,93 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ESOS Quant Agent — Dashboard</title>
+<title>QuantBot Leaderboard — Alpaca Paper</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font:14px/1.5 system-ui,sans-serif;background:#f5f5f5;color:#333;padding:20px;max-width:900px;margin:0 auto}
-h1{font-size:24px;margin-bottom:4px}.sub{font-size:14px;color:#888;margin-bottom:20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:24px}
-.card{background:#fff;border:1px solid #e5e5e5;border-radius:8px;padding:16px}
-.card .label{font-size:11px;text-transform:uppercase;color:#999;margin-bottom:4px;letter-spacing:.5px}
-.card .value{font-size:22px;font-weight:600}.card .sub{font-size:12px;color:#999;margin-top:2px}
-.green{color:#16a34a}.red{color:#dc2626}
-h2{font-size:18px;margin:24px 0 12px;padding-bottom:8px;border-bottom:1px solid #e5e5e5}
-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e5e5;border-radius:8px;overflow:hidden}
-th{text-align:left;padding:10px 14px;font-size:11px;text-transform:uppercase;color:#999;background:#fafafa;border-bottom:1px solid #e5e5e5}
-td{padding:10px 14px;border-bottom:1px solid #f0f0f0;font-size:14px}
+body{font:14px/1.5 system-ui,sans-serif;background:#0f1115;color:#e5e7eb;padding:24px;max-width:1100px;margin:0 auto}
+h1{font-size:26px;margin-bottom:4px}.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+table{width:100%;border-collapse:collapse;background:#161a22;border:1px solid #232a36;border-radius:10px;overflow:hidden;margin-bottom:24px}
+th{text-align:left;padding:12px 16px;font-size:11px;text-transform:uppercase;color:#8b949e;background:#1b2029;border-bottom:1px solid #232a36}
+td{padding:12px 16px;border-bottom:1px solid #1e2530;font-size:15px}
 tr:last-child td{border-bottom:none}
-td .name{display:block;font-size:11px;color:#999}
-.footer{margin-top:48px;padding-top:16px;border-top:1px solid #e5e5e5;font-size:12px;color:#999;text-align:center}
-.note{background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:12px;margin-bottom:20px;font-size:13px;color:#92400e}
+.rank{font-weight:700;color:#8b949e;width:60px}
+.bot{font-weight:600}.green{color:#3fb950}.red{color:#f85149}
+.badge{display:inline-block;padding:2px 10px;border-radius:99px;font-size:11px;font-weight:600}
+.badge-on{background:#12291d;color:#3fb950}.badge-off{background:#2d1518;color:#f85149}
+h2{font-size:18px;margin:28px 0 12px;padding-bottom:8px;border-bottom:1px solid #232a36}
+.chart{background:#161a22;border:1px solid #232a36;border-radius:10px;padding:16px;margin-bottom:24px}
+.chart svg{width:100%;height:200px}
+.hist{font-size:13px;color:#8b949e;margin-bottom:8px}
+.empty{color:#6b7280;padding:16px;text-align:center}
+.footer{margin-top:40px;padding-top:16px;border-top:1px solid #232a36;font-size:12px;color:#6b7280;text-align:center}
 </style>
 </head>
 <body>
 
-<h1>ESOS Quant Agent</h1>
-<div class="sub">PAPER · Read-only snapshot</div>
+<h1>QuantBot Leaderboard</h1>
+<div class="sub">Alpaca paper accounts · $1,000,000 starting capital · read-only snapshot</div>
 
-<div class="note">📊 This is a delayed snapshot. Live dashboard runs on Don's machine. Data refreshes every few hours.</div>
-
-<div class="grid" id="cards"></div>
-
-<h2>Positions</h2>
-<table>
-  <thead><tr><th>Symbol</th><th>Qty</th><th>Entry</th><th>Value</th><th>P&amp;L</th></tr></thead>
-  <tbody id="positions"></tbody>
+<table id="leaderboard">
+  <thead><tr><th>Rank</th><th>Bot</th><th>Portfolio</th><th>P&amp;L</th><th>Status</th></tr></thead>
+  <tbody></tbody>
 </table>
 
-<h2>🔍 Screening Candidates</h2>
-<table>
-  <thead><tr><th>Symbol</th><th>Price</th><th>P/E</th><th>Fwd P/E</th><th>PEG</th><th>Margin</th><th>ROE</th><th>Rev Gr</th><th>Beta</th></tr></thead>
-  <tbody id="candidates"></tbody>
-</table>
+<div id="bots"></div>
 
 <div class="footer" id="footer"></div>
 
 <script>
-const NAMES = {
-  "FTNT":"Fortinet","NKE":"Nike","NFLX":"Netflix","PFE":"Pfizer","CME":"CME Group",
-  "WM":"Waste Management","INTU":"Intuit","CRCL":"Circle Internet Group",
-  "AAPL":"Apple","MSFT":"Microsoft","GOOGL":"Alphabet","AMZN":"Amazon","SPY":"S&P 500 ETF",
-  "088980":"Macquarie Infra","TSLA":"Tesla"
-};
+const fmt = n => Number(n).toLocaleString("en", {minimumFractionDigits:2, maximumFractionDigits:2});
 
 fetch("data.json")
   .then(r => r.json())
   .then(d => {
-    const fmt = (n,d) => Number(n).toLocaleString("en",{minimumFractionDigits:d,maximumFractionDigits:d});
-    const pnl = d.daily_pnl || 0;
+    const bots = d.leaderboard || [];
 
-    document.getElementById("cards").innerHTML =
-      ["PORTFOLIO|$"+fmt(d.portfolio_value,2)+"|",
-       "CASH|$"+fmt(d.cash,2)+"|",
-       "DAILY P&L|"+(pnl>=0?"+":"")+fmt(pnl,2)+"%|"+(pnl>=0?"green":"red"),
-       "TRADES|"+d.total_trades+"|Win rate: "+d.win_rate+"%",
-       "LOSS STREAK|"+d.consecutive_losses+"|Max 5 before halt",
-       "POSITIONS|"+d.open_positions+"|Max: 5"
-      ].map(c => {
-        const [l,v,s,cl] = c.split("|");
-        return `<div class="card"><div class="label">${l}</div><div class="value ${cl||""}">${v}</div><div class="sub">${s}</div></div>`;
-      }).join("");
-
-    const pos = d.positions || {};
-    const rows = Object.entries(pos);
-    document.getElementById("positions").innerHTML = rows.length
-      ? rows.map(([sym,p]) => {
-          const pl = p.unrealized_plpc || 0;
-          const cls = pl >= 0 ? "green" : "red";
-          const name = NAMES[sym] || sym;
-          const entry = p.currency === "KRW" ? "₩"+fmt(p.avg_entry_price,0) : "$"+fmt(p.avg_entry_price,2);
-          const value = p.currency === "KRW" ? "₩"+fmt(p.market_value,0) : "$"+fmt(p.market_value,2);
-          return `<tr><td>${sym}<span class="name">${name}</span></td><td>${fmt(p.qty,0)}</td><td>${entry}</td><td>${value}</td><td class="${cls}">${pl>=0?"+":""}${fmt(pl,1)}%</td></tr>`;
+    document.querySelector("#leaderboard tbody").innerHTML = bots.length
+      ? bots.map((b, i) => {
+          const pnl = b.pnl || 0;
+          const cls = b.status === "ONLINE" ? "badge-on" : "badge-off";
+          return `<tr><td class="rank">#${i+1}</td><td class="bot">${b.name}</td>` +
+                 `<td>$${fmt(b.value)}</td>` +
+                 `<td class="${pnl >= 0 ? "green" : "red"}">${pnl >= 0 ? "+" : ""}$${fmt(pnl)}</td>` +
+                 `<td><span class="badge ${cls}">${b.status}</span></td></tr>`;
         }).join("")
-      : '<tr><td colspan="5" style="color:#999">No positions</td></tr>';
+      : '<tr><td colspan="5" class="empty">No data yet</td></tr>';
 
-    document.getElementById("footer").textContent = `ESOS Quant Agent · PAPER · Snapshot: ${d.updated}`;
+    document.getElementById("bots").innerHTML = bots.map(b => {
+      const eq = b.equity || [];
+      let chart = '<div class="empty">No equity history yet</div>';
+      if (eq.length >= 2) {
+        const vals = eq.map(p => Number(p.v));
+        const lo = Math.min(...vals), hi = Math.max(...vals), span = (hi - lo) || 1;
+        const pts = vals.map((v, i) =>
+          `${(i * 100 / (vals.length - 1)).toFixed(1)},${(105 - (v - lo) * 95 / span).toFixed(1)}`
+        ).join(" ");
+        const color = vals[vals.length-1] >= vals[0] ? "#3fb950" : "#f85149";
+        chart = `<div class="chart"><svg viewBox="0 0 100 110" preserveAspectRatio="none">` +
+                `<polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2"/></svg></div>`;
+      }
 
-    const candidates = d.candidates || [];
-    document.getElementById("candidates").innerHTML = candidates.length
-      ? candidates.map(c =>
-          `<tr><td><b>${c.symbol}</b></td><td>$${fmt(c.price,2)}</td><td>${c.pe}x</td><td>${c.fwd_pe}x</td><td>${c.peg}x</td><td><b>${c.margin}%</b></td><td>${c.roe}%</td><td>${c.rev_growth}%</td><td>${c.beta}</td></tr>`
-        ).join("")
-      : '<tr><td colspan="9" style="color:#999">No candidates yet</td></tr>';
+      const orders = b.orders || [];
+      const hist = orders.length
+        ? `<table><thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th>Qty</th><th>Price</th><th>Status</th></tr></thead><tbody>` +
+          orders.slice(0, 20).map(o => {
+            const t = (o.submitted_at || "").replace("T", " ").slice(0, 19);
+            const side = o.side === "buy" ? `<span class="green">BUY</span>` : `<span class="red">SELL</span>`;
+            return `<tr><td>${t}</td><td>${o.symbol}</td><td>${side}</td><td>${o.filled_qty || o.qty || "0"}</td>` +
+                   `<td>${o.filled_avg_price ? "$" + Number(o.filled_avg_price).toFixed(2) : "—"}</td><td>${o.status}</td></tr>`;
+          }).join("") + `</tbody></table>`
+        : '<div class="empty">No orders yet</div>';
+
+      return `<h2>${b.name}</h2>` +
+             `<div class="hist">Portfolio <b>$${fmt(b.value)}</b> · P&amp;L <b class="${b.pnl >= 0 ? "green" : "red"}">${b.pnl >= 0 ? "+" : ""}$${fmt(b.pnl)}</b></div>` +
+             chart + hist;
+    }).join("");
+
+    document.getElementById("footer").textContent = `QuantBot Leaderboard · Alpaca paper · Snapshot: ${d.updated} · Auto-refreshes on push`;
   })
-  .catch(() => document.body.innerHTML += '<p style="color:#dc2626">Failed to load data. Check back later.</p>');
+  .catch(() => document.body.innerHTML += '<p style="color:#f85149">Failed to load data. Check back later.</p>');
 </script>
 </body>
 </html>

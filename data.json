@@ -22,7 +22,7 @@
       "status": "ONLINE"
     },
     {
-      "name": "Sergei",
+      "name": "Don",
       "value": 1000000.0,
       "pnl": 0.0,
       "equity": [
@@ -43,9 +43,9 @@
       "status": "ONLINE"
     },
     {
-      "name": "Don",
-      "value": 1000000.0,
-      "pnl": 0.0,
+      "name": "Sergei",
+      "value": 999940.31,
+      "pnl": -59.68999999994412,
       "equity": [
         {
           "t": 1786060800,
@@ -60,9 +60,48 @@
           "v": 1000000.0
         }
       ],
-      "orders": [],
+      "orders": [
+        {
+          "id": "e802013a-fa66-41db-b9bf-cebc49869c54",
+          "client_order_id": "52293a44-108f-4875-8445-e6a124f44adb",
+          "created_at": "2026-08-11T17:17:42.240206965Z",
+          "updated_at": "2026-08-11T17:17:43.156388659Z",
+          "submitted_at": "2026-08-11T17:17:42.268580811Z",
+          "filled_at": "2026-08-11T17:17:43.154761326Z",
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "b28f4066-5c6d-479b-a2af-85dc1a8f16fb",
+          "symbol": "SPY",
+          "asset_class": "us_equity",
+          "notional": "200000",
+          "qty": null,
+          "filled_qty": "259.52117044",
+          "filled_avg_price": "770.65",
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "day",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "filled",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-08-11T20:00:00Z"
+        }
+      ],
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-11 18:00:24"
+  "updated": "2026-08-11 21:00:34"
 }

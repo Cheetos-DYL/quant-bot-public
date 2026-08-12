@@ -1,9 +1,51 @@
 {
   "leaderboard": [
     {
+      "name": "Stuart",
+      "value": 1000000.0,
+      "pnl": 0.0,
+      "equity": [
+        {
+          "t": 1786060800,
+          "v": 1000000.0
+        },
+        {
+          "t": 1786147200,
+          "v": 1000000.0
+        },
+        {
+          "t": 1786406400,
+          "v": 1000000.0
+        }
+      ],
+      "orders": [],
+      "status": "ONLINE"
+    },
+    {
+      "name": "Don",
+      "value": 1000000.0,
+      "pnl": 0.0,
+      "equity": [
+        {
+          "t": 1786060800,
+          "v": 1000000.0
+        },
+        {
+          "t": 1786147200,
+          "v": 1000000.0
+        },
+        {
+          "t": 1786406400,
+          "v": 1000000.0
+        }
+      ],
+      "orders": [],
+      "status": "ONLINE"
+    },
+    {
       "name": "Sergei",
-      "value": 1000033.32,
-      "pnl": 33.31999999994878,
+      "value": 999971.45,
+      "pnl": -28.550000000046566,
       "equity": [
         {
           "t": 1786060800,
@@ -20,14 +62,52 @@
       ],
       "orders": [
         {
-          "id": "9cd640bc-dce7-4a6d-8542-787b3e956f77",
-          "client_order_id": "08ba4c69-3370-4b2b-8dc3-4050bd60dc4e",
-          "created_at": "2026-08-11T21:48:13.436732339Z",
-          "updated_at": "2026-08-11T21:48:14.052275791Z",
-          "submitted_at": "2026-08-11T21:48:13.436732339Z",
+          "id": "54f78016-3d8b-4b69-b53e-4c450be84b20",
+          "client_order_id": "e9f35a3d-1ea4-4424-837d-e77814c67ea9",
+          "created_at": "2026-08-11T23:10:02.575436331Z",
+          "updated_at": "2026-08-11T23:10:02.576052776Z",
+          "submitted_at": "2026-08-11T23:10:02.575436331Z",
           "filled_at": null,
           "expired_at": null,
-          "canceled_at": "2026-08-11T21:48:14.05227492Z",
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "b28f4066-5c6d-479b-a2af-85dc1a8f16fb",
+          "symbol": "SPY",
+          "asset_class": "us_equity",
+          "notional": null,
+          "qty": "259.52117044",
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "sell",
+          "position_intent": "sell_to_close",
+          "time_in_force": "day",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "accepted",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-08-12T20:00:00Z"
+        },
+        {
+          "id": "9cd640bc-dce7-4a6d-8542-787b3e956f77",
+          "client_order_id": "08ba4c69-3370-4b2b-8dc3-4050bd60dc4e",
+          "created_at": "2026-08-11T21:48:13.436732Z",
+          "updated_at": "2026-08-11T21:48:14.052276Z",
+          "submitted_at": "2026-08-11T21:48:13.436732Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": "2026-08-11T21:48:14.052275Z",
           "failed_at": null,
           "replaced_at": null,
           "replaced_by": null,
@@ -54,7 +134,7 @@
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-12T20:00:00Z"
         },
         {
@@ -249,49 +329,7 @@
         }
       ],
       "status": "ONLINE"
-    },
-    {
-      "name": "Stuart",
-      "value": 1000000.0,
-      "pnl": 0.0,
-      "equity": [
-        {
-          "t": 1786060800,
-          "v": 1000000.0
-        },
-        {
-          "t": 1786147200,
-          "v": 1000000.0
-        },
-        {
-          "t": 1786406400,
-          "v": 1000000.0
-        }
-      ],
-      "orders": [],
-      "status": "ONLINE"
-    },
-    {
-      "name": "Don",
-      "value": 1000000.0,
-      "pnl": 0.0,
-      "equity": [
-        {
-          "t": 1786060800,
-          "v": 1000000.0
-        },
-        {
-          "t": 1786147200,
-          "v": 1000000.0
-        },
-        {
-          "t": 1786406400,
-          "v": 1000000.0
-        }
-      ],
-      "orders": [],
-      "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-12 00:00:38"
+  "updated": "2026-08-12 03:00:48"
 }

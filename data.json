@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Sergei",
-      "value": 1000173.88,
-      "pnl": 173.88000000000466,
+      "value": 1000134.94,
+      "pnl": 134.93999999994412,
       "equity": [
         {
           "t": 1786060800,
@@ -16,15 +16,19 @@
         {
           "t": 1786406400,
           "v": 1000000.0
+        },
+        {
+          "t": 1786492800,
+          "v": 999976.63
         }
       ],
       "orders": [
         {
           "id": "54f78016-3d8b-4b69-b53e-4c450be84b20",
           "client_order_id": "e9f35a3d-1ea4-4424-837d-e77814c67ea9",
-          "created_at": "2026-08-11T23:10:02.575436331Z",
-          "updated_at": "2026-08-11T23:10:02.576052776Z",
-          "submitted_at": "2026-08-11T23:10:02.575436331Z",
+          "created_at": "2026-08-11T23:10:02.575436Z",
+          "updated_at": "2026-08-12T08:00:12.083965Z",
+          "submitted_at": "2026-08-12T08:00:12.082781Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -47,14 +51,14 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-12T20:00:00Z"
         },
         {
@@ -304,6 +308,10 @@
         {
           "t": 1786406400,
           "v": 1000000.0
+        },
+        {
+          "t": 1786492800,
+          "v": 1000000.0
         }
       ],
       "orders": [],
@@ -325,11 +333,15 @@
         {
           "t": 1786406400,
           "v": 1000000.0
+        },
+        {
+          "t": 1786492800,
+          "v": 1000000.0
         }
       ],
       "orders": [],
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-12 06:00:56"
+  "updated": "2026-08-12 09:01:03"
 }

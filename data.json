@@ -1368,9 +1368,9 @@
         {
           "id": "627bd35a-79f7-4cab-8c01-029dece8f28e",
           "client_order_id": "6ea2bcc9-cea6-479f-8a68-c40fd0dd0110",
-          "created_at": "2026-08-16T09:06:54.536233606Z",
-          "updated_at": "2026-08-16T09:06:54.537020216Z",
-          "submitted_at": "2026-08-16T09:06:54.536233606Z",
+          "created_at": "2026-08-16T09:06:54.536234Z",
+          "updated_at": "2026-08-16T09:06:54.53702Z",
+          "submitted_at": "2026-08-16T09:06:54.536234Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -1406,9 +1406,9 @@
         {
           "id": "31159b6a-4b22-419a-9e4e-2209f85bdabf",
           "client_order_id": "a73d0cfa-f465-4355-8c9a-17e922d4e365",
-          "created_at": "2026-08-16T09:06:54.184348263Z",
-          "updated_at": "2026-08-16T09:06:54.184925119Z",
-          "submitted_at": "2026-08-16T09:06:54.184348263Z",
+          "created_at": "2026-08-16T09:06:54.184348Z",
+          "updated_at": "2026-08-16T09:06:54.184925Z",
+          "submitted_at": "2026-08-16T09:06:54.184348Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -1444,9 +1444,9 @@
         {
           "id": "773ffd00-a9f6-43f1-8ec5-1c78d5ac07d0",
           "client_order_id": "13be6be0-ec98-4a7c-9b27-4b6ce0137fb9",
-          "created_at": "2026-08-16T09:06:53.833767458Z",
-          "updated_at": "2026-08-16T09:06:53.83450225Z",
-          "submitted_at": "2026-08-16T09:06:53.833767458Z",
+          "created_at": "2026-08-16T09:06:53.833767Z",
+          "updated_at": "2026-08-16T09:06:53.834502Z",
+          "submitted_at": "2026-08-16T09:06:53.833767Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -6917,5 +6917,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-16 18:00:35"
+  "updated": "2026-08-16 21:00:45"
 }

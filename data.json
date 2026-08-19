@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Sergei",
-      "value": 998760.27,
-      "pnl": -1239.7299999999814,
+      "value": 998745.52,
+      "pnl": -1254.4799999999814,
       "equity": [
         {
           "t": 1786060800,
@@ -36,6 +36,10 @@
         {
           "t": 1787011200,
           "v": 993100.31
+        },
+        {
+          "t": 1787097600,
+          "v": 998186.39
         }
       ],
       "orders": [
@@ -1792,8 +1796,8 @@
     },
     {
       "name": "Don",
-      "value": 997377.21,
-      "pnl": -2622.7900000000373,
+      "value": 997140.35,
+      "pnl": -2859.6500000000233,
       "equity": [
         {
           "t": 1786060800,
@@ -1826,15 +1830,19 @@
         {
           "t": 1787011200,
           "v": 996596.84
+        },
+        {
+          "t": 1787097600,
+          "v": 997320.45
         }
       ],
       "orders": [
         {
           "id": "e10c1d33-dc61-45a3-a56b-2e31fd4e1530",
           "client_order_id": "30b7f891-d361-4fb4-a028-ca1ee18a4239",
-          "created_at": "2026-08-18T20:01:25.377949149Z",
-          "updated_at": "2026-08-18T20:01:25.379900886Z",
-          "submitted_at": "2026-08-18T20:01:25.377949149Z",
+          "created_at": "2026-08-18T20:01:25.377949Z",
+          "updated_at": "2026-08-19T08:00:02.125424Z",
+          "submitted_at": "2026-08-19T08:00:02.125421Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -1857,45 +1865,7 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
-          "extended_hours": false,
-          "legs": null,
-          "trail_percent": null,
-          "trail_price": null,
-          "hwm": null,
-          "subtag": null,
-          "source": null,
-          "expires_at": "2026-08-19T20:00:00Z"
-        },
-        {
-          "id": "50ed139a-3b89-41bd-9f20-01175331e1bd",
-          "client_order_id": "d3d6d5ef-36eb-42ae-95a6-a2e23c3d47cc",
-          "created_at": "2026-08-18T20:01:10.729974Z",
-          "updated_at": "2026-08-18T20:01:10.769008Z",
-          "submitted_at": "2026-08-18T20:01:10.729974Z",
-          "filled_at": null,
-          "expired_at": null,
-          "canceled_at": null,
-          "failed_at": null,
-          "replaced_at": null,
-          "replaced_by": null,
-          "replaces": null,
-          "asset_id": "4f5baf1e-0e9b-4d85-b88a-d874dc4a3c42",
-          "symbol": "V",
-          "asset_class": "us_equity",
-          "notional": null,
-          "qty": "265",
-          "filled_qty": "0",
-          "filled_avg_price": null,
-          "order_class": "",
-          "order_type": "market",
-          "type": "market",
-          "side": "sell",
-          "position_intent": "sell_to_close",
-          "time_in_force": "day",
-          "limit_price": null,
-          "stop_price": null,
-          "status": "accepted",
+          "status": "pending_new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
@@ -1909,8 +1879,8 @@
           "id": "7ae122df-31f5-4cad-a36e-ba5c9cead198",
           "client_order_id": "3912b6da-ddec-4574-9273-9f4261ae9e1c",
           "created_at": "2026-08-18T20:00:45.129473Z",
-          "updated_at": "2026-08-18T20:00:45.132025Z",
-          "submitted_at": "2026-08-18T20:00:45.129473Z",
+          "updated_at": "2026-08-19T08:00:02.033466Z",
+          "submitted_at": "2026-08-19T08:00:02.033462Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -1933,7 +1903,45 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": "access_key",
+          "expires_at": "2026-08-19T20:00:00Z"
+        },
+        {
+          "id": "50ed139a-3b89-41bd-9f20-01175331e1bd",
+          "client_order_id": "d3d6d5ef-36eb-42ae-95a6-a2e23c3d47cc",
+          "created_at": "2026-08-18T20:01:10.729974Z",
+          "updated_at": "2026-08-19T08:00:02.011243Z",
+          "submitted_at": "2026-08-19T08:00:02.011238Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "4f5baf1e-0e9b-4d85-b88a-d874dc4a3c42",
+          "symbol": "V",
+          "asset_class": "us_equity",
+          "notional": null,
+          "qty": "265",
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "sell",
+          "position_intent": "sell_to_close",
+          "time_in_force": "day",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
@@ -4304,8 +4312,8 @@
     },
     {
       "name": "Stuart",
-      "value": 977400.02,
-      "pnl": -22599.97999999998,
+      "value": 977611.56,
+      "pnl": -22388.439999999944,
       "equity": [
         {
           "t": 1786060800,
@@ -4338,6 +4346,10 @@
         {
           "t": 1787011200,
           "v": 994811.27
+        },
+        {
+          "t": 1787097600,
+          "v": 978069.08
         }
       ],
       "orders": [
@@ -8145,5 +8157,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-19 06:00:12"
+  "updated": "2026-08-19 09:00:12"
 }

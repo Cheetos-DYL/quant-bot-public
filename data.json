@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Don",
-      "value": 995498.03,
-      "pnl": -4501.969999999972,
+      "value": 994922.55,
+      "pnl": -5077.449999999953,
       "equity": [
         {
           "t": 1786060800,
@@ -44,15 +44,19 @@
         {
           "t": 1787184000,
           "v": 1000498.02
+        },
+        {
+          "t": 1787270400,
+          "v": 994766.19
         }
       ],
       "orders": [
         {
           "id": "1a518e63-87ec-40e7-92c8-87eb517eb2d6",
           "client_order_id": "560c99cd-32a5-4c25-aec0-4bf2c7b3846f",
-          "created_at": "2026-08-20T20:01:37.135549892Z",
-          "updated_at": "2026-08-20T20:01:37.136122231Z",
-          "submitted_at": "2026-08-20T20:01:37.135549892Z",
+          "created_at": "2026-08-20T20:01:37.13555Z",
+          "updated_at": "2026-08-21T08:00:13.445189Z",
+          "submitted_at": "2026-08-21T08:00:13.444297Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -75,14 +79,14 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-21T20:00:00Z"
         },
         {
@@ -3206,8 +3210,8 @@
     },
     {
       "name": "Sergei",
-      "value": 974910.39,
-      "pnl": -25089.609999999986,
+      "value": 973923.1,
+      "pnl": -26076.900000000023,
       "equity": [
         {
           "t": 1786060800,
@@ -3248,6 +3252,10 @@
         {
           "t": 1787184000,
           "v": 996839.53
+        },
+        {
+          "t": 1787270400,
+          "v": 974277.77
         }
       ],
       "orders": [
@@ -5422,8 +5430,8 @@
     },
     {
       "name": "Stuart",
-      "value": 971608.09,
-      "pnl": -28391.910000000033,
+      "value": 971004.42,
+      "pnl": -28995.579999999958,
       "equity": [
         {
           "t": 1786060800,
@@ -5464,15 +5472,19 @@
         {
           "t": 1787184000,
           "v": 976598.04
+        },
+        {
+          "t": 1787270400,
+          "v": 971326.37
         }
       ],
       "orders": [
         {
           "id": "ac340836-9a8c-41ac-8627-9aa93f19607b",
           "client_order_id": "bb66d146-3f9d-4daa-ad4f-9ec8ab2e820b",
-          "created_at": "2026-08-20T20:01:12.416931569Z",
-          "updated_at": "2026-08-20T20:01:12.419028834Z",
-          "submitted_at": "2026-08-20T20:01:12.416931569Z",
+          "created_at": "2026-08-20T20:01:12.416932Z",
+          "updated_at": "2026-08-21T08:00:24.437935Z",
+          "submitted_at": "2026-08-21T08:00:24.436954Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -5495,22 +5507,22 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-21T20:00:00Z"
         },
         {
           "id": "4354a010-d358-4101-842e-2e0891f88f94",
           "client_order_id": "bacebf1d-2434-44a8-b040-711912618de7",
           "created_at": "2026-08-20T20:01:09.787725Z",
-          "updated_at": "2026-08-20T20:01:09.788281Z",
-          "submitted_at": "2026-08-20T20:01:09.787725Z",
+          "updated_at": "2026-08-21T08:00:24.434426Z",
+          "submitted_at": "2026-08-21T08:00:24.433528Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -5533,7 +5545,7 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
@@ -5547,8 +5559,8 @@
           "id": "c628c80e-e5f7-4507-8290-2b22db5bdd8b",
           "client_order_id": "8d527596-189c-4372-ac44-50fb6bac80a0",
           "created_at": "2026-08-20T20:00:45.497349Z",
-          "updated_at": "2026-08-20T20:00:45.497935Z",
-          "submitted_at": "2026-08-20T20:00:45.497349Z",
+          "updated_at": "2026-08-21T08:00:23.208443Z",
+          "submitted_at": "2026-08-21T08:00:23.207584Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -5571,7 +5583,7 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
@@ -9271,5 +9283,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-21 06:00:11"
+  "updated": "2026-08-21 09:00:49"
 }

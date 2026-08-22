@@ -56,6 +56,44 @@
       ],
       "orders": [
         {
+          "id": "1237be11-0acd-4a53-bdaf-48c87f4b160e",
+          "client_order_id": "1b4498ca-71b5-476c-84cc-4533d56ddb9e",
+          "created_at": "2026-08-22T11:47:35.601715579Z",
+          "updated_at": "2026-08-22T11:47:35.603025163Z",
+          "submitted_at": "2026-08-22T11:47:35.601715579Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "f30d734c-2806-4d0d-b145-f9fade61432b",
+          "symbol": "GOOG",
+          "asset_class": "us_equity",
+          "notional": null,
+          "qty": "554",
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "day",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "accepted",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-08-24T20:00:00Z"
+        },
+        {
           "id": "1f2b415f-4c65-4038-8e76-4a2df2cd110c",
           "client_order_id": "27458416-014c-4443-86fd-40b050b9d1fd",
           "created_at": "2026-08-21T19:36:49.632767Z",
@@ -10093,5 +10131,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-22 12:00:18"
+  "updated": "2026-08-22 15:00:30"
 }

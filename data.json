@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Don",
-      "value": 996789.88,
-      "pnl": -3210.1199999999953,
+      "value": 993936.7,
+      "pnl": -6063.300000000047,
       "equity": [
         {
           "t": 1786060800,
@@ -58,9 +58,9 @@
         {
           "id": "1237be11-0acd-4a53-bdaf-48c87f4b160e",
           "client_order_id": "1b4498ca-71b5-476c-84cc-4533d56ddb9e",
-          "created_at": "2026-08-22T11:47:35.601715579Z",
-          "updated_at": "2026-08-22T11:47:35.603025163Z",
-          "submitted_at": "2026-08-22T11:47:35.601715579Z",
+          "created_at": "2026-08-22T11:47:35.601716Z",
+          "updated_at": "2026-08-24T08:00:36.528238Z",
+          "submitted_at": "2026-08-24T08:00:36.506318Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -83,14 +83,14 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-24T20:00:00Z"
         },
         {
@@ -3784,8 +3784,8 @@
     },
     {
       "name": "Sergei",
-      "value": 971615.07,
-      "pnl": -28384.93000000005,
+      "value": 970790.27,
+      "pnl": -29209.72999999998,
       "equity": [
         {
           "t": 1786060800,
@@ -6274,8 +6274,8 @@
     },
     {
       "name": "Stuart",
-      "value": 970158.39,
-      "pnl": -29841.609999999986,
+      "value": 967958.27,
+      "pnl": -32041.72999999998,
       "equity": [
         {
           "t": 1786060800,
@@ -10131,5 +10131,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-24 06:00:37"
+  "updated": "2026-08-24 09:00:41"
 }

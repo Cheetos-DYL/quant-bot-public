@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Don",
-      "value": 999442.05,
-      "pnl": -557.9499999999534,
+      "value": 998173.76,
+      "pnl": -1826.2399999999907,
       "equity": [
         {
           "t": 1786060800,
@@ -60,16 +60,20 @@
         {
           "t": 1787702400,
           "v": 996093.86
+        },
+        {
+          "t": 1787788800,
+          "v": 995954.33
         }
       ],
       "orders": [
         {
           "id": "95de29f8-e3e5-4274-8522-0ca8bb1e0dd2",
           "client_order_id": "797d1185-127f-4d4b-9a3d-c0bd0cd3181d",
-          "created_at": "2026-08-26T18:38:34.300776077Z",
-          "updated_at": "2026-08-26T18:38:34.518163751Z",
-          "submitted_at": "2026-08-26T18:38:34.305784537Z",
-          "filled_at": "2026-08-26T18:38:34.516436758Z",
+          "created_at": "2026-08-26T18:38:34.300776Z",
+          "updated_at": "2026-08-26T18:38:34.518164Z",
+          "submitted_at": "2026-08-26T18:38:34.305785Z",
+          "filled_at": "2026-08-26T18:38:34.516437Z",
           "expired_at": null,
           "canceled_at": null,
           "failed_at": null,
@@ -98,7 +102,7 @@
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-26T20:00:00Z"
         },
         {
@@ -3868,8 +3872,8 @@
     },
     {
       "name": "Sergei",
-      "value": 986369.56,
-      "pnl": -13630.439999999944,
+      "value": 987363.23,
+      "pnl": -12636.770000000019,
       "equity": [
         {
           "t": 1786060800,
@@ -3926,16 +3930,20 @@
         {
           "t": 1787702400,
           "v": 982873.88
+        },
+        {
+          "t": 1787788800,
+          "v": 984864.22
         }
       ],
       "orders": [
         {
           "id": "eb16e178-6e85-4efd-aa32-bc6f080cceab",
           "client_order_id": "7c151780-c017-4dcf-9ed5-2c85b286852a",
-          "created_at": "2026-08-26T17:48:51.609907715Z",
-          "updated_at": "2026-08-26T17:48:51.816607028Z",
-          "submitted_at": "2026-08-26T17:48:51.626896544Z",
-          "filled_at": "2026-08-26T17:48:51.815045078Z",
+          "created_at": "2026-08-26T17:48:51.609908Z",
+          "updated_at": "2026-08-26T17:48:51.816607Z",
+          "submitted_at": "2026-08-26T17:48:51.626897Z",
+          "filled_at": "2026-08-26T17:48:51.815045Z",
           "expired_at": null,
           "canceled_at": null,
           "failed_at": null,
@@ -3964,7 +3972,7 @@
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-26T20:00:00Z"
         },
         {
@@ -7164,8 +7172,8 @@
     },
     {
       "name": "Stuart",
-      "value": 965014.49,
-      "pnl": -34985.51000000001,
+      "value": 964826.37,
+      "pnl": -35173.630000000005,
       "equity": [
         {
           "t": 1786060800,
@@ -7222,16 +7230,20 @@
         {
           "t": 1787702400,
           "v": 966393.99
+        },
+        {
+          "t": 1787788800,
+          "v": 963631.91
         }
       ],
       "orders": [
         {
           "id": "75a16be5-5ac3-4e1d-8293-851c773caf22",
           "client_order_id": "0954a7b8-63db-403e-9130-1cbdaae6e7f6",
-          "created_at": "2026-08-26T19:48:21.509795934Z",
-          "updated_at": "2026-08-26T19:48:21.709732645Z",
-          "submitted_at": "2026-08-26T19:48:21.515239308Z",
-          "filled_at": "2026-08-26T19:48:21.707885552Z",
+          "created_at": "2026-08-26T19:48:21.509796Z",
+          "updated_at": "2026-08-26T19:48:21.709733Z",
+          "submitted_at": "2026-08-26T19:48:21.515239Z",
+          "filled_at": "2026-08-26T19:48:21.707886Z",
           "expired_at": null,
           "canceled_at": null,
           "failed_at": null,
@@ -7260,7 +7272,7 @@
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": null,
+          "source": "access_key",
           "expires_at": "2026-08-26T20:00:00Z"
         },
         {
@@ -11029,5 +11041,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-08-27 06:00:45"
+  "updated": "2026-08-27 09:00:30"
 }

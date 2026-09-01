@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Don",
-      "value": 1003970.19,
-      "pnl": 3970.189999999944,
+      "value": 1004210.51,
+      "pnl": 4210.510000000009,
       "equity": [
         {
           "t": 1786060800,
@@ -78,10 +78,10 @@
         {
           "id": "90485bba-23e0-4031-b4b8-a4eeff30da0a",
           "client_order_id": "da2dd3ef-d406-4fe7-b4b2-c1152289c3f8",
-          "created_at": "2026-08-31T13:47:54.499423128Z",
-          "updated_at": "2026-08-31T13:47:55.453965881Z",
-          "submitted_at": "2026-08-31T13:47:54.508424505Z",
-          "filled_at": "2026-08-31T13:47:55.452326405Z",
+          "created_at": "2026-08-31T13:47:54.499423Z",
+          "updated_at": "2026-08-31T13:47:55.453966Z",
+          "submitted_at": "2026-08-31T13:47:54.508425Z",
+          "filled_at": "2026-08-31T13:47:55.452326Z",
           "expired_at": null,
           "canceled_at": null,
           "failed_at": null,
@@ -3880,8 +3880,8 @@
     },
     {
       "name": "Sergei",
-      "value": 981761.38,
-      "pnl": -18238.619999999995,
+      "value": 981298.89,
+      "pnl": -18701.109999999986,
       "equity": [
         {
           "t": 1786060800,
@@ -3988,7 +3988,7 @@
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": "access_key",
+          "source": null,
           "expires_at": "2026-08-31T20:00:00Z"
         },
         {
@@ -7758,8 +7758,8 @@
     },
     {
       "name": "Stuart",
-      "value": 966498.7,
-      "pnl": -33501.30000000005,
+      "value": 966984.93,
+      "pnl": -33015.06999999995,
       "equity": [
         {
           "t": 1786060800,
@@ -7866,7 +7866,7 @@
           "trail_price": null,
           "hwm": null,
           "subtag": null,
-          "source": "access_key",
+          "source": null,
           "expires_at": "2026-08-31T20:00:00Z"
         },
         {
@@ -11635,5 +11635,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-09-01 00:00:40"
+  "updated": "2026-09-01 03:00:49"
 }

@@ -2,8 +2,8 @@
   "leaderboard": [
     {
       "name": "Don",
-      "value": 985983.79,
-      "pnl": -14016.209999999963,
+      "value": 986011.99,
+      "pnl": -13988.01000000001,
       "equity": [
         {
           "t": 1786060800,
@@ -3900,8 +3900,8 @@
     },
     {
       "name": "Sergei",
-      "value": 981007.75,
-      "pnl": -18992.25,
+      "value": 979832.74,
+      "pnl": -20167.26000000001,
       "equity": [
         {
           "t": 1786060800,
@@ -7798,8 +7798,8 @@
     },
     {
       "name": "Stuart",
-      "value": 953763.71,
-      "pnl": -46236.29000000004,
+      "value": 954050.37,
+      "pnl": -45949.630000000005,
       "equity": [
         {
           "t": 1786060800,
@@ -7895,8 +7895,8 @@
           "id": "96782a51-3702-4405-b2ea-7911147a2ee2",
           "client_order_id": "19d36ce0-8bb4-42c7-ad44-2b9dc2a9248f",
           "created_at": "2026-09-04T20:02:10.780972Z",
-          "updated_at": "2026-09-04T20:02:10.78169Z",
-          "submitted_at": "2026-09-04T20:02:10.780972Z",
+          "updated_at": "2026-09-08T08:00:03.58707184Z",
+          "submitted_at": "2026-09-08T08:00:03.587068756Z",
           "filled_at": null,
           "expired_at": null,
           "canceled_at": null,
@@ -7919,7 +7919,7 @@
           "time_in_force": "day",
           "limit_price": null,
           "stop_price": null,
-          "status": "accepted",
+          "status": "pending_new",
           "extended_hours": false,
           "legs": null,
           "trail_percent": null,
@@ -11695,5 +11695,5 @@
       "status": "ONLINE"
     }
   ],
-  "updated": "2026-09-08 06:01:00"
+  "updated": "2026-09-08 09:00:10"
 }
